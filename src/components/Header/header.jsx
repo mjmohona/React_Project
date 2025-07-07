@@ -1,7 +1,6 @@
-import React from "react";
-import classes from './header.module.css'
 import logo from '../../assets/logo.svg';
 import reactLogo from '../../assets/react.svg';
+import classes from './header.module.css';
 
 const Header = () => {
     return (
@@ -12,7 +11,7 @@ const Header = () => {
           </div>
           <div className="textRight">
             <img src={reactLogo} alt="React" className={classes.reactLogo} /><strong
-              >React</strong>
+              >React project</strong>
           </div>
         </div>
       </header>
