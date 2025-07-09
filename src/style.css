@@ -1,0 +1,17 @@
+.container{
+align-items: center;
+justify-content: center;
+background-color: beige;
+display: flex;
+height: 100vh;
+flex-direction: column;
+
+}
+
+.button{
+background-color: #2824ff;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+}
