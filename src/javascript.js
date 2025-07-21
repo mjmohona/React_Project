@@ -228,7 +228,37 @@
 // console.log(`my day went like ${myDay}`);
 
 
-function greet(name){
-    console.log(`Hello, ${name} How are you today?`);
+// Create a function greet(name) that returns: "Hi, [name]! How are you today?" using template literals.
+// function greet(name){
+//     console.log(`Hello, ${name} How are you today?`);
+// }
+// greet("Mohona"); 
+
+
+
+// let arr1 = ["HTML", "CSS"];
+// let arr2 = [...arr1, "JavaScript", "React"];
+// console.log(arr2); // Output: [HTML, CSS, JavaScript, React]
+
+
+// Use the rest operator in a function to return the sum of all numbers passed.
+// function sum(...numbers) {
+//     return numbers.reduce((acc, num) => acc + num, 0);  
+// }
+// console.log(sum(1, 2, 3, 4, 5)); // Output: 15
+
+
+// Write a welcome() function that greets a user. If no name is given, default to "User"
+// function welcome(name = "User") {
+//     console.log(`Hello, ${name}!`);
+// }
+// welcome(); // Output: Hello, User!
+// welcome("Mohona"); // Output: Hello, Mohona!
+
+
+// Create a discount(price, rate = 0.1) function to apply 10% discount by default.
+function discount(price, rate = 0.1) {
+    return price - (price * rate);
 }
-greet("Mohona");
+console.log(discount(100)); // Output: 90
+// console.log(discount(100, 0.2)); // Output: 80
