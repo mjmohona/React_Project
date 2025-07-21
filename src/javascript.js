@@ -200,16 +200,35 @@
 // console.log("Car brand:", brand);
 // console.log("Car year:", year);
 
-let car = {
-   brand: "Toyota",
-    year: 2022,
-    owner: {
-        name: "Mohona",
-        age: 25
-    }
-};
-let {
-    owner: {name, age} 
-} = car;
-console.log("Owner's name:", name);
-console.log("Owner's age:", age);
+// let car = {
+//    brand: "Toyota",
+//     year: 2022,
+//     owner: {
+//         name: "Mohona",
+//         age: 25
+//     }
+// };
+// let {
+//     owner: {name, age} 
+// } = car;
+// console.log("Owner's name:", name);
+// console.log("Owner's age:", age);
+
+
+
+// Create a variable with your name, and another with your favorite color. Use template literals to print:
+// let name = "Mohona";
+// let favouriteColor = "Blue";
+// console.log(`Hello I'm ${name} and my favourite color is ${favouriteColor}!`);
+
+
+// Write a multi-line string describing your day, using backticks.
+// let myDay = `Today is a beautiful day!
+// I am learning JavaScript and enjoying it!`;
+// console.log(`my day went like ${myDay}`);
+
+
+function greet(name){
+    console.log(`Hello, ${name} How are you today?`);
+}
+greet("Mohona");
