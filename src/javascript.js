@@ -257,8 +257,49 @@
 
 
 // Create a discount(price, rate = 0.1) function to apply 10% discount by default.
-function discount(price, rate = 0.1) {
-    return price - (price * rate);
-}
-console.log(discount(100)); // Output: 90
+// function discount(price, rate = 0.1) {
+//     return price - (price * rate);
+// }
+// console.log(discount(100)); // Output: 90
 // console.log(discount(100, 0.2)); // Output: 80
+
+
+// Write a function that accepts a name and a callback — and calls the callback after greeting.
+// function greet(name, callback){
+//     console.log(`Hello, ${name}`);
+//     callback();
+// }
+// greet("Mohona", function(){
+//     console.log("the callback function is called!")
+// });
+
+
+// Use forEach on an array of numbers to print each one.
+// let numbers = [1, 2, 3, 4, 5];
+// numbers.forEach((num) => {
+//     console.log(`Number: ${num}`);
+// });
+
+// let numbers = [1, 2, 3, 4, 5];
+// numbers.map((num)=> {
+//     console.log(`squareNumbers: ${num * num}`);
+// });
+
+// Create a Promise that resolves after 2 seconds with the value "Hello!"
+let myPromise = new Promise((resolve, reject) => {
+ setTimeout(() => {
+    resolve("Hello!");
+ }, 2000);
+});
+
+myPromise.then((result) => {
+    console.log(result);
+})
+.catch((error) =>{
+    console.log("Error Occured:", error);
+})
+
+
+
+
+
