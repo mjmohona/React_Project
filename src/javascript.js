@@ -286,18 +286,20 @@
 // });
 
 // Create a Promise that resolves after 2 seconds with the value "Hello!"
-let myPromise = new Promise((resolve, reject) => {
- setTimeout(() => {
-    resolve("Hello!");
- }, 2000);
-});
+// let myPromise = new Promise((resolve, reject) => {
+//  setTimeout(() => {
+//     resolve("Hello!");
+//  }, 2000);
+// });
 
-myPromise.then((result) => {
-    console.log(result);
-})
-.catch((error) =>{
-    console.log("Error Occured:", error);
-})
+// myPromise.then((result) => {
+//     console.log(result);
+// })
+// .catch((error) =>{
+//     console.log("Error Occured:", error);
+// })
+
+
 
 
 
